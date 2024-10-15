@@ -36,7 +36,6 @@ class DetailPage extends StatelessWidget
             indicator: BoxDecoration(
               borderRadius: BorderRadius.circular(10),shape: BoxShape.rectangle,color: Color(0xff516AAB),
             )
-
           ),
         ),
 

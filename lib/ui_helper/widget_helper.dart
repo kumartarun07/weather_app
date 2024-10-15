@@ -3,10 +3,11 @@ import 'package:flutter/material.dart';
 
 class WidgetHelper
 {
-  myIconButton({Icon ? micon})
+  myIcon({Icon ? mIcon})
   {
-    var micon;
-    double? msize;
-    return IconButton(onPressed: (){} ,icon: Icon(micon,size: msize,),);
+    var mIcon;
+    double? mSize=30;
+    Color? mColor;
+    return  Icon(mIcon,size: mSize,color: mColor,);
   }
 }
